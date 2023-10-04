@@ -3,46 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yellow Jackets - Team Roster</title>
+    <title>YellowJackets - Team Roster</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Yellow Jackets - Team Roster</h1>
+        <h1>YellowJackets</h1>
+        <h3>Mens Team Roster</h3>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="team-roster.html">Roster</a></li>
+                <li class="menu-item-has-children">                    <a href="#">Roster</a> <!-- Main Roster Link -->
+                    <div class="submenu">
+                        <a href="mens-roster.html">Men's Roster</a>
+                        <a href="womens-roster.html">Women's Roster</a>
+                    </div>
+                </li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#gallery">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="defense">
-            <h2>Defense</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Major</th> <!-- Added Major column -->
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>Safety</td>
-                        <td>Computer Science</td> <!-- Example major for John Doe -->
-                    </tr>
-                    <!-- Additional players can be added here -->
-                </tbody>
-            </table>
+        <section class="team-section">
+            <h2>Offense</h2>
+            <div class="team-roster">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Position: Quarterback</p>
+                <p>Major: Liberal Studies</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Mark Loe</h3>
+                <p>Position: Wider Reciever</p>
+                <p>Major: Mechanical Engineering</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Frank Moe</h3>
+                <p>Position: Safety</p>
+                <p>Major: Computer Science</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Levi Kim</h3>
+                <p>Position: Wider Reciever</p>
+                <p>Major: Mechanical Engineering</p>
+            </div>
+            <!-- Repeat similar blocks for each team member -->
         </section>
+        <section class="team-section">
+            <h2>Defense</h2>
+            <div class="team-roster">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Hank Grren</h3>
+                <p>Position: Quarterback</p>
+                <p>Major: Liberal Studies</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Antonhy Tao</h3>
+                <p>Position: Wider Reciever</p>
+                <p>Major: Mechanical Engineering</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Jim Night</h3>
+                <p>Position: Wider Reciever</p>
+                <p>Major: Mechanical Engineering</p>
+            </div>
+            <div class="team-member">
+                <img src="img\no-image.png" alt="John Doe">
+                <h3>Guy Marzelli</h3>
+                <p>Position: Safety</p>
+                <p>Major: Computer Science</p>
+            </div>
+            <!-- Repeat similar blocks for each team member -->
+        </section>
+        
         <!-- You can add sections for Offense, Special Teams, etc. similarly -->
     </main>
     <footer>
-        <p>Contact us at: <a href="mailto:yellowjackets@example.com">yellowjackets@example.com</a></p>
+        <p>Follow us on twitter! @YellowjacketsCBU</a></p>
     </footer>
 
     <script src="scripts.js"></script>

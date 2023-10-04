@@ -8,11 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>Yellow Jackets - Team Roster</h1>
+        <h1>YellowJackets</h1>
+        <h3>Womens Team Roster</h3>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="team-roster.html">Roster</a></li>
+                <li class="menu-item-has-children">                    <a href="#">Roster</a> <!-- Main Roster Link -->
+                    <div class="submenu">
+                        <a href="mens-roster.html">Men's Roster</a>
+                        <a href="womens-roster.html">Women's Roster</a>
+                    </div>
+                </li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#gallery">Gallery</a></li>
             </ul>
@@ -24,8 +30,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Position</th>
+                        <th>Name</th> <!-- Added Name column -->
+                        <th>Position</th> <!-- Added Postion column -->
                         <th>Major</th> <!-- Added Major column -->
                     </tr>
                 </thead>
@@ -42,7 +48,7 @@
         <!-- You can add sections for Offense, Special Teams, etc. similarly -->
     </main>
     <footer>
-        <p>Contact us at: <a href="mailto:yellowjackets@example.com">yellowjackets@example.com</a></p>
+        <p>Follow us on twitter! @YellowjacketsCBU</a></p>
     </footer>
 
     <script src="scripts.js"></script>
